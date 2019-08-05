@@ -17,10 +17,10 @@ namespace Adventure_Game
             Console.Clear();
             Console.WriteLine("\n\n\n\n");
             Console.WriteLine("             You're about to embark on a journey...");
-            Thread.Sleep(2000);
+            Thread.Sleep(1500);
             Console.WriteLine("\n\n");
             Console.WriteLine("                     For some people, the future is bright...");
-            Thread.Sleep(2000);
+            Thread.Sleep(1500);
             Console.WriteLine("\n\n");
             Console.WriteLine("                             But for others, they will head down a dark path...");
             Thread.Sleep(2500);
@@ -93,7 +93,7 @@ namespace Adventure_Game
             Console.WriteLine("                        | |_| |  | | | |  |  __  |  |  _|   ");
             Console.WriteLine("                        |_____|  |_| |_|  |_/  |_|  |_____| ");
             Console.WriteLine("\n\n");
-            Console.WriteLine("                             Press ENTER at your own risk...");
+            Console.WriteLine("                                  Press ENTER at your own risk...");
             Console.ReadLine();
             Console.ResetColor();
             Console.Clear();
